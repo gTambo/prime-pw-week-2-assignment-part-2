@@ -123,7 +123,7 @@ let number = 1;
 
 // FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--; 
+number--;
 
 if (number >= 2) {
   console.log('yes');
@@ -138,12 +138,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX switch colorOne and colorTwo
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX set colorTwo to 'purple' also
 }
 */
 
@@ -153,8 +155,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX time is a variable and should be declared with let
 const time = 4;
 
+// FIX the condition is an 'and' so it should use && not ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -165,9 +169,11 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+// FIX can we assume minAge is a constant because of implied situational context? If not, switch it to a variable with let
 let age = 21;
 const minAge = 21;
 
+// FIX remove equals sign
 if(minAge <= age) {
   console.log('no entry');
 } else {

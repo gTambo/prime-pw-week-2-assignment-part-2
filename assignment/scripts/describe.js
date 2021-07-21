@@ -173,7 +173,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX remove equals sign
+// FIX remove equals sign, OR switch minAge and age, change the less than to a greater than, and log 'enter' if true, else log 'no entry'
 if(minAge <= age) {
   console.log('no entry');
 } else {

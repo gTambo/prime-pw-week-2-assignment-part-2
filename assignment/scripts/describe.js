@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We define a string variable and set its value as "Dane"
-// We then set a conditional to check whether the string 'name' is 'Mary'
+// We define a string variable 'name' and set its value as Dane
+// We then set a conditional to check whether the string 'name' is Mary;
 // if yes, we console log "Hi, Mary"; if no, we console log "How do you do?"
 // Since the variable 'name' is not Mary, console log will show "How do you do?"
 
@@ -45,14 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We declare a variable called 'secret,' but assign it no value
-// We declare a number variable 'code' and assign it the number 123
-// We create a condition to check if 'code' equals 123; if yes, 'secret' gets the string "super"
-// and 'code' is multiplied by 2
-// After this, we create another condition to check if 'code' is greater than 250;
+// We declare a variable 'secret,' but assign it no value
+// We declare a number variable 'code' set it to 123
+// We create a condition to check if 'code' equals 123; if yes, 'secret' gets assigned the string "super" and 'code' is multiplied by 2
+// After this, now check if 'code' is greater than 250;
 // if yes, 'secret' now becomes 'duper'
-// code was initially 123, so 'secret became "super", but 123 times 2 is 246, which is less than 250
-// so we console log the string 'super'
+// code was initially 123, so 'secret became "super", but 123 times 2 is 246, which is less than 250 so console log shows 'super'
 
 //CODE
 /*
@@ -74,14 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We declare the variable isStudent and give it the boolean value of true
-// we declare another variable age and set it to the number 34
-// We declare another variable zip and set it equal to 55407
-// we create a compound conditional to check if both isStudent is true and zip is greater than 80000; if yes, we log 'You're a student on the West Coast!'
-// next we check if isStudent is false or if age is less than 30; if either are true, we log 'What are your hobbies?'
-// then we check if just isStudent is true, in which case we log 'Welcome to Prime!'
-// If non of the previous conditions are met, log 'How about the weather?'
-// isStudent is true, but zip is less than 80000, so we check the second condition, and age is greater than 30, so we check the third condition and console log 'Welcome to Prime!'
+// We declare the variable isStudent and give it the boolean value true
+// We declare another variable age and set it to the number 34
+// We declare another variable zip and set it to the number 55407
+// We create a compound conditional to check if both isStudent is true and if zip is greater than 80000; if yes, we log 'You're a student on the West Coast!'
+// Next we check if isStudent is false or if age is less than 30; if either are true, we log 'What are your hobbies?'
+// Then we check if just isStudent is true, in which case we log 'Welcome to Prime!'
+// If none of the previous conditions are met, log 'How about the weather?'
+// isStudent is true, but zip is less than 80000, so we check the second condition, and age is greater than 30, so we check the third condition, which is true, and console log 'Welcome to Prime!'
 
 //CODE
 /*

@@ -27,8 +27,8 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We define a string variable 'name' and set its value as Dane
-// We then set a conditional to check whether the string 'name' is Mary;
-// if yes, we console log "Hi, Mary"; if no, we console log "How do you do?"
+// We then set a conditional to check whether the variable 'name' is Mary;
+// If yes, we console log "Hi, Mary"; if no, we console log "How do you do?"
 // Since the variable 'name' is not Mary, console log will show "How do you do?"
 
 //CODE
@@ -46,11 +46,11 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We declare a variable 'secret,' but assign it no value
-// We declare a number variable 'code' set it to 123
+// We declare a variable 'code' set it to the number 123
 // We create a condition to check if 'code' equals 123; if yes, 'secret' gets assigned the string "super" and 'code' is multiplied by 2
 // After this, now check if 'code' is greater than 250;
 // if yes, 'secret' now becomes 'duper'
-// code was initially 123, so 'secret became "super", but 123 times 2 is 246, which is less than 250 so console log shows 'super'
+// code was initially 123, so secret became "super", and code was doubled; 246 is less than 250 so secret does not change, and console log shows 'super'
 
 //CODE
 /*

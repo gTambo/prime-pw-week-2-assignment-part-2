@@ -136,14 +136,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX switch colorOne and colorTwo
+// FIX - per instructions, colorOne and colorTwo should be switched
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - also set colorTwo to 'purple'
 if (mix === true) {
   colorOne = 'purple';
-  // FIX set colorTwo to 'purple' also
 }
 */
 
@@ -153,10 +153,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
-// FIX time is a variable and should be declared with let
+// FIX - time is a variable and should be declared with let
 const time = 4;
 
-// FIX the condition is an 'and' so it should use && not ||
+// FIX - the condition is an 'and' so it should use && not ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -167,11 +167,11 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
-// FIX can we assume minAge is a constant because of implied situational context? If not, switch it to a variable with let
+// FIX - can we assume minAge is a constant because of implied situational context? If not, switch it to a variable with let
 let age = 21;
 const minAge = 21;
 
-// FIX remove equals sign, OR switch minAge and age, change the less than to a greater than, and log 'enter' if true, else log 'no entry'
+// FIX - remove equals sign and switch less than sign to greater than sign, OR change the first condition to log 'enter' if true, else log 'no entry'
 if(minAge <= age) {
   console.log('no entry');
 } else {
